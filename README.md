@@ -1,16 +1,19 @@
-# baby_tracker
+# Baby Tracekr
+I am a new dad i am building anapp that will track my infants behaviours
+ 1. eating
+ 1. diaper changes
+ 1. notes on mile stones
+I have seen many out there but most are full of adds and seem to want alot of data so i am making my own form me and her to use I figured I would let otehr people in my situation take advantage
 
-A new Flutter project.
+## Stack
+on device mobile &amp; web:
+ * [flutter](https://flutter.dev/)
+ * [dart](https://pub.dev)
 
-## Getting Started
+Database 
+ * [mySQL](https://dev.mysql.com) hosted on aq raspi4
 
-This project is a starting point for a Flutter application.
+Dependencies
+ * [mysql1](https://pub.dev/packages/mysql1) Driver to connect to db
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
