@@ -1,6 +1,6 @@
 {
-    "name": "baby_tracker",
-    "short_name": "baby_tracker",
+    "name": "baby tracker",
+    "short_name": "baby tracker",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
