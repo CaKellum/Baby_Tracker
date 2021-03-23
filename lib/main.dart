@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Future _connect() {
     var settings = new ConnectionSettings(
       host: sec.host, 
-      port: 3306,
+      port: 22,
       user: sec.user,
       password: sec.pass,
       db: sec.db
@@ -60,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 if(snapshot.hasData){
                   return Text('connected');
                 }else if(snapshot.hasError){
+                  print(snapshot.error);
                   return Text('error');                
                 } else{
                   return Text('waiting');
